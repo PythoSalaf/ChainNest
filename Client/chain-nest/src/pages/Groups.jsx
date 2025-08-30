@@ -4,8 +4,8 @@ const Groups = () => {
       <div className="w-[96%] md:w-[95%] mx-auto">
         <h2>Group Saving</h2>
         <div className="flex items-start mt-4 justify-between gap-6 w-full">
-          <div className="shadow w"></div>
-          <div className=""></div>
+          <div className="shadow w-[25%]"></div>
+          <div className="w-[75%] py-3"></div>
         </div>
       </div>
     </div>

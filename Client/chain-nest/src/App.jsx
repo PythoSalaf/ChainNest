@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Dashboard, Home } from "./pages";
+import { Dashboard, Groups, Home } from "./pages";
 import { Footer, Navbar } from "./components";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/groups" element={<Groups />} />
       </Routes>
       <Footer />
     </>

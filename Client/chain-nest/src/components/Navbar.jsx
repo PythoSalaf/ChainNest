@@ -45,7 +45,8 @@ const Navbar = () => {
     }
   };
 
-  const DisconnectBtn = () => {
+  const DisconnectBtn = async () => {
+     await window.ethereum.request({method: 'wallet_revokePermissions',params:[{eth_accounts:{}}]}) 
     setAccounts([]);
     setConnectionError("");
     console.log("Wallet disconnected");
